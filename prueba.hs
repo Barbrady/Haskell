@@ -26,5 +26,6 @@ longitud n
     | n < 10 = 1
     | otherwise = 1 + longitud (div n 10)
 
-pares [] = []
-pares (x:xs) = 
+paress [] = []
+paress (x:xs) = 
+
