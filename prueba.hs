@@ -25,7 +25,3 @@ polidivisible n
 longitud n
     | n < 10 = 1
     | otherwise = 1 + longitud (div n 10)
-
-paress [] = []
-paress (x:xs) = 
-
