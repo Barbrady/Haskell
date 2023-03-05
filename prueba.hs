@@ -25,3 +25,11 @@ polidivisible n
 longitud n
     | n < 10 = 1
     | otherwise = 1 + longitud (div n 10)
+
+sumaPar x = if (x `mod` 2) == 0
+               then x+1
+               else x
+
+doubleSmallNumber x = if x > 100
+                        then x
+                        else x*2
