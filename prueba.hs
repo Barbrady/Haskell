@@ -37,3 +37,7 @@ peso n b
         indice = n/b 
         (delgado, normal) = (60,80)
 
+inicial::[a]->a
+
+inicial nombre = l
+    where (l:_) = nombre
